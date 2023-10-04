@@ -1,0 +1,115 @@
+/* Reset default margin and padding for all elements */
+
+
+/* Set background color for the entire page */
+body {
+    background-color: #f4f4f4;
+
+}
+
+/* Center the description box on the page */
+.description {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    border: 10px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the headings and paragraphs inside the description box */
+.description h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.topnav {
+    background: linear-gradient(to right, #4CAF50, #00bcd4);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 40px;
+    border-radius: 5px;
+    top: 20%;
+    background-image: url(https://images.unsplash.com/photo-1572315831029-5d6f20e0035d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for navigation links */
+.topnav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.topnav a:hover {
+    background-color: rgba(4, 66, 0, 0.1);
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive layout for navigation */
+@media screen and (max-width: 600px) {
+    .topnav .brand h1 {
+        font-size: 20px;
+    }
+
+    .topnav a {
+        font-size: 14px;
+    }
+}
+/* Add this to your existing CSS or create a new CSS file */
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+.footer-brand p {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #464646;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #4CAF50;
+}
